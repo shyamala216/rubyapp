@@ -1,0 +1,10 @@
+default: &default
+development:
+  database: demo
+  adapter: mysql2
+  pool: 30
+  host: localhost
+  username: root
+  password: Shyamala
+  timeout: 5000
+  socket: /var/run/mysqld/mysqld.sock
